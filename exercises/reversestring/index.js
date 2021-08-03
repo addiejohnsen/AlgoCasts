@@ -6,6 +6,15 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-function reverse(str) {}
+// I - string
+// O - string
+// C - none
+// E - does capitalization matter
+
+function reverse(str) {
+  // reverse string
+  // return reversed string
+  return str.split("").reverse().join("");
+}
 
 module.exports = reverse;
